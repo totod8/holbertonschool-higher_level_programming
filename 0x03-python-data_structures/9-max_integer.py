@@ -10,4 +10,4 @@ def max_integer(my_list=[]):
         # assigns the number that meets that condition, the value of big_number
         if n > big_number:
             big_number = n
-        return big_number
+    return big_number
