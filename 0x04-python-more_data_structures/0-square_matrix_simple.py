@@ -1,8 +1,5 @@
 #!/usr/bin/python3
-def uniq_add(my_list=[]):
-    # convert to set my_list, no repeat sum of the elements
-    list_two = set(my_list)
-    sum_elem = 0
-    for element in list_two:
-        sum_elem += element
-    return sum_elem
+def square_matrix_simple(matrix=[]):
+    # Use list comprehension and map() function
+    matrix_two = [list(map(lambda n: n**2, x)) for x in matrix]
+    return matrix_two
