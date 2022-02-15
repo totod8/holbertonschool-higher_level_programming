@@ -18,4 +18,4 @@ class Square:
     def area(self):
         """ This class method returns the square of what is
             in the attribute 'size' """
-            return self.__size ** 2
+        return self.__size ** 2
